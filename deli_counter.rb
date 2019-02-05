@@ -1,9 +1,11 @@
 # Write your code here.
 def line(katz_deli)
+  ln_status = "The line is currently:"
  if katz_deli.length === 0
    puts "The line is currently empty."
 elsif katz_deli.length > 0
-     puts katz_deli
+  #iterate through the array and push the {index+1) = the index
+     puts ln_status+" "+katz_deli.join(', ')
  end
 end
 
