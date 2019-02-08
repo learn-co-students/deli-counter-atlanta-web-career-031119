@@ -5,8 +5,10 @@ def line(katz_deli)
    puts "The line is currently empty."
 elsif katz_deli.length > 0
   #iterate through the array and push the {index+1) = the index
+     crrnt_ln_status = katz_deli.each do |person|
      puts ln_status+" "+katz_deli.join(', ')
  end
+end
 end
 
 def take_a_number(katz_deli,person)
