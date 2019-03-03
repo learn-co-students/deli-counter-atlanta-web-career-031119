@@ -10,6 +10,7 @@ def line(array)
     puts "The line is currently: "
     array.each {|name| puts "#{i}. #{name}"; i += 1}
   end
+end
 
 def take_a_number(array, new_name)
   array.push(new_name.to_s)
