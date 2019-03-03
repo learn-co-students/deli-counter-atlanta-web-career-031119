@@ -9,7 +9,7 @@ def line(array)
     i = 1
     line_list = ""
     array.each do |name|
-      line_list.push " #{i}. #{name}"
+      line_list.concat " #{i}. #{name}"
       i += 1
     end
     puts "The line is currently: #{line_list}"
