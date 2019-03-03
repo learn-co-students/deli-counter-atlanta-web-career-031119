@@ -12,7 +12,7 @@ def line(array)
       line_list.concat " #{i}. #{name}"
       i += 1
     end
-    puts "The line is currently: #{line_list}"
+    puts "The line is currently:#{line_list}"
   end
 end
 
