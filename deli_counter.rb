@@ -7,12 +7,12 @@ def line(array)
     return
   else
     i = 1
-    puts "The line is currently:"
+    line_list = ""
     array.each do |name|
-      puts " #{i}. #{name}"
+      line_list.push " #{i}. #{name}"
       i += 1
     end
-    return
+    puts "The line is currently: #{line_list}"
   end
 end
 
