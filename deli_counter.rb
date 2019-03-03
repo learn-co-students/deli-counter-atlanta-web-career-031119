@@ -11,6 +11,7 @@ def line(array)
     array.each do |name|
       print " #{i}. #{name}"
       i += 1
+    end
     return
   end
 end
