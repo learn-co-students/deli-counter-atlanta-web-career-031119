@@ -7,8 +7,9 @@ def line(array)
     return
   else
     i = 1
-    puts "The line is currently: "
-    array.each {|name| puts "#{i}. #{name}"; i += 1}
+    print "The line is currently: "
+    array.each {|name| print "#{i}. #{name} "; i += 1}
+    return
   end
 end
 
